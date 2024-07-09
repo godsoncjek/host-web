@@ -12,7 +12,7 @@ div,
 span,
 applet,
 object,
-iframe,
+/* iframe, */
 h1,
 h2,
 h3,
@@ -709,6 +709,10 @@ aside .pages {
 .header-right-sidebar ul a {
     padding: 0 !important;
     color: #231f20;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
 }
 
 .header-right-sidebar i {
